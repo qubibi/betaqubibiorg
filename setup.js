@@ -14,7 +14,7 @@ const use_boxblur = true; // true: Box Blurエフェクト使用, false: 通常�
 const patternPresets = {
     1: { pattern: 'a', hueRotation: 0.0, rotation: 0 },  // プリセット1
     2: { pattern: 'b', hueRotation: 0.0, rotation: 0 },  // プリセット2
-    3: { pattern: 'c', hueRotation: 0.0, rotation: 70 },  // プリセット3（80度回転）
+    3: { pattern: 'c', hueRotation: 0.0, rotation: 50 },  // プリセット3（80度回転）
     4: { pattern: 'd', hueRotation: 0.0, rotation: 0 },  // プリセット4
     // 将来の拡張例:
     // 5: { pattern: 'a', hueRotation: 0.3, rotation: 0 },  // プリセット5（パターンaの色相違い）
@@ -132,9 +132,9 @@ const resources = {
         'c6f': 'imgseq/c6f.png',
         'c7f': 'imgseq/c7f.png',
         'c8f': 'imgseq/c8f.png',
-        'c9f': 'imgseq/999.png',
-        'c10f': 'imgseq/999.png',
-        'c11f': 'imgseq/999.png',
+        'c9f': 'imgseq/c9f.png',
+        'c10f': 'imgseq/c10f.png',
+        'c11f': 'imgseq/c11f.png',
         // dパターン用画像（暫定的にaパターンの画像を流用）
         'd1s': 'imgseq/d1s.png',
         'd2s': 'imgseq/999.png',

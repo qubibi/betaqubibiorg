@@ -16,7 +16,7 @@ const patterns = {
         sen_imgseqUp:   ['c1s','c2s','c2s','c3s','c4s','c5s','c5s',999,999,999,'c6s','c6s','c7s','c7s','c8s','c8s','c8s','c8s','c8s',999],
         sen_imgseqDown: ['c8s','c9s','c10s','c11s','c1s'],
         nuri_imgseqUp:  ['c1f','c2f','c2f','c3f','c4f','c5f','c5f',999,999,999,'c6f','c6f','c7f','c7f','c8f','c8f','c8f','c8f','c8f','c8f'],
-        nuri_imgseqDown: ['c8f',999,999,999,'c1f']
+        nuri_imgseqDown: ['c8f','c9f','c10f','c11f','c1f']
     },
     d: {
         sen_imgseqUp:   ['d1s','d2s','d2s','d3s','d4s','d5s','d5s',999,999,999,'d6s','d6s','d7s','d7s','d8s','d8s','d8s','d8s','d8s',999],
