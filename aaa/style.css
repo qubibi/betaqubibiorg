@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-height: 100dvh; /* 動的ビューポート高さ */
+    padding: 0;
+}
+
+canvas {
+    border: none;
+    /* サイズはJavaScriptで制御 */
+    /* ピクセル補間を無効化（ピクセルアートの場合） */
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+}
+
+#preset-switcher {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 15px;
+    font-size: 18px;
+    font-family: monospace;
+    z-index: 1000;
+    user-select: none;
+}
+
+#preset-switcher a {
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#preset-switcher a:hover {
+    opacity: 0.8;
+}
+
+#preset-switcher a.active {
+    text-decoration: underline;
+}
